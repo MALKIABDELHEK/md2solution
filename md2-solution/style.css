@@ -1,0 +1,80 @@
+/*commun stuf*/
+body {
+    font-family: cursive;
+}
+section {
+	background-color: grey;
+	border: 3px solid black;/*1px thick does not work with me*/
+	float: left;
+}
+h2 {
+	border: 2px solid black;
+	float: right;
+	margin-top: 0px;
+	width: 30%;
+	text-align: center;
+	position: relative:;
+}
+.Chicken {
+	background-color: #FA8072;
+}
+.Beef {
+	background-color: #B22222;
+	color: white;
+}
+.Sushi {
+	background-color: #F0E68C;
+}
+/*not commun stuf*/
+@media (min-width: 992px) {
+	h1{
+		text-align: center;
+		margin-top: 70px;
+	}
+	section {
+		width: 31%;
+		margin: 10px;
+		box-sizing: border-box;
+	}
+	p {
+		margin-top: 50px;
+		padding-left: 20px;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	h1{
+		text-align: center;
+		margin-top: 50px;
+	}
+	section {
+		width: 47%;
+		margin: 10px;
+		box-sizing: border-box;
+	}
+	section.last {
+		width: 96.3%;
+		margin: 10px;
+		box-sizing: border-box;
+	}
+	p {
+		margin-top: 50px;
+		padding-left: 20px;
+	}
+}
+@media (max-width: 767px) {
+	h1{
+		text-align: center;
+		margin-top: 30px;
+	}
+	section {
+		width: 95%;
+		margin: 10px;
+		box-sizing: border-box;
+	}
+	p {
+		margin-top: 50px;
+		padding-left: 20px;
+	}
+
+}
